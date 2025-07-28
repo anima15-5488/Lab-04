@@ -1,0 +1,137 @@
+/* style.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    background-color: #e6f2ff;
+  }
+  
+  .container {
+    background: white;
+    padding: 40px 60px;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+    text-align: center;
+    max-width: 500px;
+    margin: 80px auto;
+  }
+  
+  h1 {
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  a.button {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 20px 50px;
+    font-size: 1.3rem;
+    color: white;
+    background-color: #3498db;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  a.button:hover {
+    background-color: #2980b9;
+  }
+  
+  form {
+    max-width: 450px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #555;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background: #27ae60;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.1rem;
+    transition: background 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background: #219150;
+  }
+  
+  .search-submit {
+    background: #3498db;
+  }
+  
+  .search-submit:hover {
+    background: #2980b9;
+  }
+  
+  .success {
+    background: #d4edda;
+    color: #155724;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #c3e6cb;
+  }
+  
+  .error {
+    background: #f8d7da;
+    color: #721c24;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #f5c6cb;
+  }
+  
+  .back-link {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .back-link a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .back-link a:hover {
+    text-decoration: underline;
+  }
+  
+  .result {
+    background: #eef9f1;
+    border: 1px solid #27ae60;
+    padding: 15px;
+    border-radius: 6px;
+    color: #2c662d;
+    margin-top: 20px;
+  }
+  
+  .result p {
+    margin: 6px 0;
+  }
+  
